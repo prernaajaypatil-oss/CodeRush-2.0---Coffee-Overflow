@@ -1,0 +1,62 @@
+export const MOCK_OFFICER_COMPLAINTS = [
+  {
+    id: "TCK-8902",
+    original_language: "Hindi",
+    raw_text: "सरकारी अस्पताल के मुख्य दरवाजे के सामने बड़ा जलभराव है, एम्बुलेंस फंस रही है।",
+    ai_summary: "Major waterlogging blocking ambulance entry at Government Hospital main gate.",
+    category: "Water / Drainage",
+    priority: "CRITICAL",
+    priority_reason: "Blocks emergency medical route (Hospital Proximity)",
+    status: "In Progress",
+    merged_count: 14,
+    location_name: "Ward 12, City Hospital Road",
+    lat: 21.1458,
+    lng: 79.0882,
+    created_at: "10 mins ago"
+  },
+  {
+    id: "TCK-8891",
+    original_language: "Marathi",
+    raw_text: "शाळेजवळील रस्ता पूर्णपणे खराब झाला आहे, खड्डे खूप मोठे आहेत.",
+    ai_summary: "Severe deep potholes reported near Primary Public School.",
+    category: "Road Damage",
+    priority: "HIGH",
+    priority_reason: "High pedestrian child traffic (School Zone)",
+    status: "Pending",
+    merged_count: 8,
+    location_name: "Ward 4, School Road",
+    lat: 21.1520,
+    lng: 79.0920,
+    created_at: "45 mins ago"
+  },
+  {
+    id: "TCK-8870",
+    original_language: "English",
+    raw_text: "Streetlight not functioning near street 4 for past two days.",
+    ai_summary: "Non-functional streetlight for 48 hours causing dark alleyway.",
+    category: "Streetlight",
+    priority: "MEDIUM",
+    priority_reason: "Public safety risk at night",
+    status: "Resolved",
+    merged_count: 1,
+    location_name: "Ward 9, Sector B",
+    lat: 21.1390,
+    lng: 79.0810,
+    created_at: "3 hours ago"
+  },
+  {
+    id: "TCK-8855",
+    original_language: "Gujarati",
+    raw_text: "કચરાપેટી ઊભરાઈ રહી છે અને ખૂબ જ દુર્ગંધ આવે છે.",
+    ai_summary: "Overflowing garbage bins causing sanitation and odor issues.",
+    category: "Sanitation",
+    priority: "LOW",
+    priority_reason: "Routine sanitation sweep required",
+    status: "Pending",
+    merged_count: 3,
+    location_name: "Ward 2, Market Square",
+    lat: 21.1410,
+    lng: 79.0950,
+    created_at: "5 hours ago"
+  }
+];
